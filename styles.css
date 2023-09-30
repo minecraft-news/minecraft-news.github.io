@@ -22,21 +22,20 @@ header {
     padding: 0 20px; /* Opcjonalne odstępy po bokach nagłówka */
 }
 
+.donate-button {
+    position: absolute;
+    top: 10px; /* Adjust this value to control the vertical position */
+    right: 10px; /* Adjust this value to control the horizontal position */
+}
+
+.donate-button img {
+    width: 230px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
 
 header .logo {
     display: inline-block;
     margin-left: 20px;
-}
-
-.donate-button {
-    position: absolute;
-    top: 10px; /* Adjust this value to control the vertical position */
-    right: 20px; /* Adjust this value to control the horizontal position */
-}
-
-.donate-button img {
-    width: 120px; /* Adjust the width as needed */
-    height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
 header nav ul {
