@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('dirt.png');
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-image: url('ggsite.png'); /* Ścieżka do obrazu */
+    background-size: cover;
+    height: 150px; /* Dostosuj wysokość nagłówka do rozmiaru obrazu */
+    display: flex;
+    justify-content: space-between; /* Wyśrodkowanie tekstu po bokach */
+    align-items: center; /* Wyśrodkowanie tekstu pionowo */
+    color: white; /* Kolor tekstu na nagłówku */
+    padding: 0 20px; /* Opcjonalne odstępy po bokach nagłówka */
+}
+
+
+header .logo {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forum-section, .news-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.forum-threads, .news-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.forum-thread, .news-article {
+    margin-bottom: 20px;
+}
+
+.forum-thread h3, .news-article h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.user-profile {
+    background-image: url('R.gif');
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.user-profile img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-image: url('dirt.png');
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
