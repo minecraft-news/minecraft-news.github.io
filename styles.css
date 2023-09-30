@@ -31,11 +31,11 @@ header .logo {
 .donate-button {
     position: absolute;
     top: 10px; /* Adjust this value to control the vertical position */
-    right: 10px; /* Adjust this value to control the horizontal position */
+    right: 20px; /* Adjust this value to control the horizontal position */
 }
 
 .donate-button img {
-    width: 125px; /* Adjust the width as needed */
+    width: 120px; /* Adjust the width as needed */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
