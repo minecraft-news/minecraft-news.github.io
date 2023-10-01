@@ -6,13 +6,13 @@ body, h1, h2, h3, p {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('dirt.png');
+    background-image: url('ggsite.png');
     background-color: #f0f0f0;
     color: #333;
 }
 
 header {
-    background-image: url('ggsite.png'); /* Ścieżka do obrazu */
+    background-image: url('pie.png'); /* Ścieżka do obrazu */
     background-size: cover;
     height: 150px; /* Dostosuj wysokość nagłówka do rozmiaru obrazu */
     display: flex;
