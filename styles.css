@@ -106,3 +106,26 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.contact-section {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section p {
+    color: #000 !important;
+}
+
+.contact-section a {
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+.contact-section a:hover {
+    text-decoration: none;
+}
+
